@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;700&display=swap");
+
+:root {
+  /* ----font-size------ */
+  --fs-3xl: 30px;
+  --fs-xxl: 25px;
+  --fs-xl: 24px;
+  --fs-lg: 20px;
+  --fs-xmd: 18px;
+  --fs-md: 16px;
+  --fs-sm: 14px;
+  --fs-xs: 10px;
+}
+/* ----------font-size------------- */
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+
+.fs_lg {
+  font-size: var(--fs-lg) !important;
+}
+
+.fs_xmd {
+  font-size: var(--fs-xmd);
+}
+
+.fs_md {
+  font-size: var(--fs-md);
+}
+
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_xs {
+  font-size: var(--fs-xs);
+}
+/* ------------------font-family----------------- */
+.ff_poppins {
+  font-family: "Poppins", sans-serif;
+}
+.ff_roboto {
+  font-family: "Roboto", sans-serif;
+}
+.ff_josefin {
+  font-family: "Josefin Sans", sans-serif;
+}
+/* ----------------color--------------- */
+.grey_color{
+  color: #4d4d4d;
+}
+.smooth_grey{
+  color: #666666;
+}
+.text_grey{
+  color: #555;
+}
+.black_01{
+  color: #222;
+}
+.black_02{
+  color: #333333;
+}
+.black_03{
+  color: #181818;
+}
+.black_04{
+  color: #454729;
+}
+.black_05{
+  color: #999999;
+}
+.blue_color{
+  color: #007BFF;
+}
+.offwhite_color{
+  color: #9e9e9e;
+}
+.bg_black{
+  background: #171717;
+}
+.text_danger{
+  color: #f00;
+}
+.footer_bg{
+  background: #0d0d0d;
+}
+
+/* ------------media--------- */
+@media (max-width: 992px) {
+  :root {
+    --fs-3xl: 28px;
+    --fs-xxl: 24px;
+    --fs-xl: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs-3xl: 26px;
+    --fs-xxl: 22px;
+    --fs-xl: 21px;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --fs-3xl: 24px;
+    --fs-xxl: 21px;
+    --fs-xl: 20px;
+    --fs-lg: 18px;
+    --fs-xmd: 16px;
+    --fs-md: 14px;
+    --fs-sm: 12px;
+    --fs-xs: 10px;
+  }
+}
